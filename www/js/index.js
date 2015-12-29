@@ -49,3 +49,7 @@ var app = {
 };
 
 app.initialize();
+
+document.addEventListener("deviceready", function() {
+    alert(window.plugins);
+}, false);
