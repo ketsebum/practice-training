@@ -70,7 +70,6 @@
     <plugin name="cordova-plugin-whitelist" version="1" />
     <plugin name="cordova-plugin-calendar" spec="4.4.5" source="pgb" />
     <preference name="android-build-tool" value="gradle" />
-<!--    <plugin name="cordova-plugin-calendar" />-->
     <!-- for Android -->
     <feature name="Calendar">
       <param name="android-package" value="nl.xservices.plugins.Calendar" />
