@@ -1,12 +1,12 @@
 {
   "project": {
-    "projectSettingsVersion": "3.0.0",
+    "projectSettingsVersion": "2.0.0",
     "creationData": {
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "",
       "projectGuid": "66dbc34d-6611-412a-859e-88a6c71bdb1c",
-      "lastModifiedDate": 1475366561582,
+      "lastModifiedDate": 1451323590748,
       "creationDate": 1451323525907
     },
     "sourceDirectory": "www",
@@ -16,15 +16,7 @@
     "testDirectory": "test",
     "startFile": "index.html",
     "projectTags": [],
-    "projectFiles": {
-      "xdk-publish-meta-data.json": {
-        "settings": {
-          "project": {
-            "XDK-not-deployed": "True"
-          }
-        }
-      }
-    },
+    "projectFiles": {},
     "projectDirectories": {
       "xdk": {
         "settings": {
@@ -38,26 +30,82 @@
     "cordovaPlugins": [],
     "serviceMethods": [],
     "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "W3C on Cordova",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "my-app",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "W3C on Crosswalk",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "my-app",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "15",
+        "cordovaCLIVersion_": "5.1.1"
+      },
       "iOS": {
         "platform_": "ios",
         "runtime_": "W3C on Cordova",
         "name_": "iOS",
         "preferences_": {
-          "ios-configuration": "adhoc",
-          "deployment-target": "6"
+          "ios-target": "6",
+          "ios-configuration": "adhoc"
         },
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "whitelist",
+          "mode": "legacy",
           "network": [
             "*"
           ],
           "intents": [],
-          "navigation": [],
-          "properties": {}
+          "navigation": []
         },
         "icons_": [],
         "splashes_": [],
@@ -73,17 +121,15 @@
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "whitelist",
+          "mode": "legacy",
           "network": [
             "*"
           ],
           "intents": [],
-          "navigation": [],
-          "properties": {}
+          "navigation": []
         },
         "icons_": [],
         "splashes_": [],
@@ -98,7 +144,6 @@
         "name_": "WebApp",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -121,7 +166,6 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -144,7 +188,6 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -167,7 +210,6 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -190,7 +232,6 @@
         "name_": "WP81",
         "preferences_": {},
         "isActive_": true,
-        "certificateId_": "",
         "appName_": "my-app",
         "appID_": "not.yet.specified",
         "appAccess_": {
@@ -206,36 +247,6 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
-        "cordovaCLIVersion_": "5.1.1"
-      },
-      "Android": {
-        "platform_": "android",
-        "runtime_": "W3C on Crosswalk",
-        "name_": "Android",
-        "preferences_": {
-          "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
-        },
-        "isActive_": true,
-        "certificateId_": "",
-        "appName_": "my-app",
-        "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
-        "crosswalkVersion_": "15",
         "cordovaCLIVersion_": "5.1.1"
       }
     }

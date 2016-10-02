@@ -47,7 +47,9 @@
                     <div class="ui-block-b"><button  class="ui-btn ui-btn-b" onclick="openCalendar()">Calendar</button></div>
                     <div class="ui-block-a"><a href="#bottomNav" class="ui-btn ui-btn-b">Bottom</a></div>
                     <div class="ui-block-b"><a href="#video" class="ui-btn ui-btn-a">Videos</a></div>
+                    <div class="ui-block-b"><a id="test" href="" class="ui-btn ui-btn-a">Whose Turn is it?</a></div>
                 </div>
+                <div id="outputLog"></div>
             </div><!-- /content -->
             
             <div data-role="footer">
@@ -159,6 +161,8 @@
                 </div>
             </div><!-- /footer -->
         </div><!-- /page -->
+        <script type="text/javascript" src="js/base.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=init"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/Calendar.js"></script>
